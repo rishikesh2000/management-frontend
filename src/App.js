@@ -1,9 +1,8 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import UserDataPage from './Pages/userDataPage';
 import LandingPage from './Pages/LandingPage';
-
 
 
 

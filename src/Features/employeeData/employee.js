@@ -2,8 +2,6 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import API_URl from "../../Config"
 
-console.log(API_URl)
-
 // Add employee action
 export const addEmployee = createAsyncThunk(
   "employeeData/addEmployee",
