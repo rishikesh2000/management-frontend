@@ -1,0 +1,89 @@
+/* Scoped styles for SuperUserDetails component */
+.super-user-details {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+
+  }
+  
+  .super-user-details .card {
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  
+  .super-user-details .card-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1px;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .super-user-details .card-body {
+    padding: 20px;
+  }
+  
+  .super-user-details .user-profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .super-user-details .profile-img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+  }
+  
+  .super-user-details .user-info {
+    font-size: 1rem;
+  }
+  
+  .super-user-details .info-item {
+    margin-bottom: 10px;
+  }
+  
+  .super-user-details .info-item strong {
+    font-weight: bold;
+    color: #333;
+  }
+
+  .logout-btn {
+    background-color: #f44336; /* Red color for the button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .logout-btn:hover {
+    background-color: #d32f2f;
+  }
+
+  .Pclose-btn {
+    background-color: transparent;
+    border: none;
+    font-size:15px;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 48px;
+    right: 25px;
+  }
+  
+  .Pclose-btn:hover {
+    color: #f44336; /* Red color on hover */
+    background: none;
+  }
+  
+  

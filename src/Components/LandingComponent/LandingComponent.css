@@ -1,0 +1,208 @@
+/* General Styles */
+.landing-container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+  }
+  
+  /* Navbar Styles */
+  .landing-container .landing-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .landing-container .navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .landing-container .navbar-logo img {
+    height: 50px;
+  }
+  
+  .landing-container .navbar-logo span {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .landing-container .navbar-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .landing-container .navbar-links a:hover {
+    color: #dff2e1;
+    text-decoration: underline;
+  }
+  
+  /* Main Content Styles */
+  .landing-container .landing-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .landing-container .landing-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #2e7d32;
+    font-weight: bold;
+  }
+  
+  .landing-container .landing-content p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .landing-container .landing-content button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .landing-container .landing-content button:hover {
+    background-color: #45a049;
+    transform: translateY(-3px);
+  }
+  
+  /* Hero Section */
+  .landing-container .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .landing-container .hero-image {
+    max-width: 70%;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer Styles */
+  .landing-container .landing-footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #f1f1f1;
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+  }
+
+  .landing-container .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  
+  .landing-container .modal {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 500px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .landing-container .modal span{
+    position: absolute;
+    top: 5px;
+    right: 12px;
+    color: gray;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 25px;
+  }
+  .landing-container .modal span:hover{
+    color: red;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .landing-navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-links {
+      margin-top: 10px;
+    }
+  
+    .landing-content h1 {
+      font-size: 2.2rem;
+    }
+  
+    .landing-content p {
+      font-size: 1rem;
+    }
+  
+    .landing-content button {
+      padding: 12px 24px;
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .navbar-logo img {
+      height: 30px;
+    }
+  
+    .navbar-logo span {
+      font-size: 1.2rem;
+    }
+  
+    .navbar-links a {
+      font-size: 14px;
+    }
+  
+    .landing-content h1 {
+      font-size: 1.8rem;
+    }
+  
+    .landing-content p {
+      font-size: 0.9rem;
+    }
+  
+    .landing-content button {
+      padding: 10px 20px;
+      font-size: 0.9rem;
+    }
+    .landing-container .modal{
+
+        padding: 20px;
+    }
+  }
+  
