@@ -188,5 +188,15 @@
     align-items: center;
     z-index: 1000;
   }
-  
+
+  @media (max-width: 768px) {
+
+    .user-data-container {
+
+        max-width: 590px; 
+        min-width: 140%; 
+      
+      }
+
+  }  
   
